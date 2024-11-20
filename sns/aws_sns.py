@@ -5,7 +5,7 @@ import boto3
 # For Local Use
 from botocore.exceptions import ClientError
 # for AWS Credentials, Uncomment for Use
-#from botocore.exceptions import NoCredentialsError, PartialCredentialsError
+from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
